@@ -1,3 +1,7 @@
-# Bomber-TEC
-BomberTec es un juego que consiste en varios personajes atrapados en en un laberinto. Los jugadores van
-dejando bombas para eliminar a los otros jugadores y el ganador es el último que queda en el laberinto.
+# Welcome to the Bomber-TEC repository!
+This is a programming proyect for the Algorithms and Data Structures II course, from Computer Engineering major at the Costa Rican Institute of Technology. 
+You can find the project management at this Azure Devops site.
+
+Development information:
+* Programming language:
+* Operting system:
