@@ -3,5 +3,6 @@ This is the second programming proyect for the Algorithms and Data Structures II
 You can find the project management at this Azure Devops site.
 
 Development information:
-* Programming language:
+* Programming language: C#
 * Operting system: Windows 10
+* Unity version: 2020.1.13f1 (64-bit)
