@@ -9,11 +9,6 @@ public class PlyerControl : MonoBehaviour
     bool firstBmb = true;
     public Transform bombSpawner;
     public GameObject bombPrefav;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -35,6 +30,7 @@ public class PlyerControl : MonoBehaviour
         {
             gameObject.transform.Translate(0, -2f * Time.deltaTime, 0);
         }
+        // player`s attack
         if (Input.GetKeyDown("space"))
         {
             if (firstBmb == true)
@@ -44,7 +40,7 @@ public class PlyerControl : MonoBehaviour
             }
             else
             {
-                if (timer >= 2)
+                if (timer >= 3)
                 {
                     playerBmb();
                     timer = 0;

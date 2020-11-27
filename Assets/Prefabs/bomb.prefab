@@ -112,4 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c455224672af9746999742344337002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bmbLife: 2
+  bmbLife: 0
+  fireLife: 0
+  active: 0
+  ExplosionPrefav: {fileID: 2014194635690767406, guid: d9265c946977da04592ef72768e0b2be, type: 3}

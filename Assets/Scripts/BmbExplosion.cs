@@ -5,19 +5,32 @@ using UnityEngine;
 public class BmbExplosion : MonoBehaviour
 {
     public float bmbLife;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float fireLife;
+    public bool active = false;
+    public GameObject ExplosionPrefav;
 
     // Update is called once per frame
     void Update()
     {
-        Destroy(gameObject, bmbLife);
+        bmbLife += Time.deltaTime;
+        fireLife += Time.deltaTime;
+        if (bmbLife >= 2 && bmbLife < 3)
+        {
+            Destroy(gameObject, bmbLife - 1);
+            //Instantiate(ExplosionPrefav, transform.position, transform.rotation);
+            active = true;
+        }
+        if (active == true)
+        {
+            if(fireLife >= 3 && fireLife < 4)
+            {
+                AutoExplode();
+            }
+        }
     }
-    public void Explosion()
+    void AutoExplode()
     {
-        int i; // cambiar esto por una expresion para que se destruya la bomba y se pongan fuegos y luego desaparezcan
+        Instantiate(ExplosionPrefav, transform.position, transform.rotation);
+        active = false;
     }
 }
