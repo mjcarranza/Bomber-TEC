@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5478555501511488613}
   - component: {fileID: 5478555501511488615}
   - component: {fileID: 5478555501511488612}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Destroy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,13 +82,13 @@ GameObject:
   - component: {fileID: 5478555501805438577}
   - component: {fileID: 5478555501805438478}
   - component: {fileID: 5478555501805438479}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Destructible
   m_TagString: DestObstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5478555501805438576
 Transform:
   m_ObjectHideFlags: 0
@@ -96,7 +96,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5478555501805438476}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0.557859, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
